@@ -10,7 +10,7 @@ import com.plcoding.dictionary.feature_dictionary.domain.model.WordInfo
 data class WordInfoEntity(
     val word: String,
     val phonetic: String,
-    val license: License,
+    val license: String,
     val meanings: List<Meaning>,
     @PrimaryKey val id: Int? = null
 ) {

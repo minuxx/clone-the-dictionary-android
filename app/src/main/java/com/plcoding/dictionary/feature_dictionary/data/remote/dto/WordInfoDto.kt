@@ -13,7 +13,7 @@ data class WordInfoDto(
     fun toWordInfoEntity(): WordInfoEntity {
         return WordInfoEntity(
             meanings = meanings.map { it.toMeaning() },
-            license = license.toLicense(),
+            license = license.toLicenseName(),
             word = word,
             phonetic = phonetic
         )

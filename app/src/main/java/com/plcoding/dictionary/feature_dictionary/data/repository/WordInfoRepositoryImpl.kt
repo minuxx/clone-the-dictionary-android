@@ -1,5 +1,6 @@
 package com.plcoding.dictionary.feature_dictionary.data.repository
 
+import android.util.Log
 import com.plcoding.dictionary.core.util.Resource
 import com.plcoding.dictionary.feature_dictionary.data.local.WordInfoDao
 import com.plcoding.dictionary.feature_dictionary.data.remote.DictionaryApi
